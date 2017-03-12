@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+.elem1{
+	background: crimson;
+	color: white;
+	width:300px;
+	height:200px;
+}
+</style>
+<div class="elem1"></div>
+<script>
+/*
+const elem1 = document.querySelector('.elem1');
+elem1.addEventListener('click', function () {
+  console.log('I am a standard function and my this is:', this);
+//this returns
+//The standard function is bounded by the parent which is document.
+*/
+
+const elem1 = document.querySelector('.elem1');
+elem1.addEventListener('click', ()=>{
+  console.log('I am a standard function and my this is:', this);
+});
+
+/*
+This returns Window
+because the parent of the calling statement is Window.
+*/
+
+</script>
+</body>
+</html>
