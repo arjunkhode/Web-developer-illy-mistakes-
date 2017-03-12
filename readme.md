@@ -42,7 +42,7 @@ const paragraphs = document.querySelectorAll('p');
 element.classList.add('newClass');
 ```
 
-1. Speaking of eventListeners, What is the 'change' event?
+1. Speaking of eventListeners, what is the 'change' event?
 The change event is fired for <input>, <select>, and <textarea> elements when a change to the element's value is committed by the user. Unlike the input event, the change event is not necessarily fired for each change to an element's value.
 
 1. Do I use fat arrow function or normal function?
