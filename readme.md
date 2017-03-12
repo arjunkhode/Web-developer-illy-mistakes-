@@ -1,6 +1,6 @@
 #Foolish mistakes I make as a web developer
 
-1.I forgot to add a closing `</div` tag!
+1. I forgot to add a closing `</div` tag!
 ```
 <!-- You must close your div tags-->
 <div class="container"> 
@@ -16,7 +16,7 @@
 </div>
 ```
 
-1.In JS, the data attribute can be accessed by dataset, but is it dataSet or dataset?
+1. In JS, the data attribute can be accessed by dataset, but is it dataSet or dataset?
 Again, is it just dataset or a function call dataset()?
 ```
 <!--It is dataset, and it is a property, not a function-->
@@ -27,7 +27,7 @@ Again, is it just dataset or a function call dataset()?
 </script>
 ```
 
-1.Are the eventListeners camel-case? Is it mousedown or mouseDown? 
+1. Are the eventListeners camel-case? Is it mousedown or mouseDown? 
 No, the eventListeners are all lowercase
 ```
 document.addEventListener('mousedown',function(){...});
@@ -42,10 +42,10 @@ const paragraphs = document.querySelectorAll('p');
 element.classList.add('newClass');
 ```
 
-1.Speaking of eventListeners, what is the 'change' event?
+1. Speaking of eventListeners, what is the 'change' event?
 The change event is fired for <input>, <select>, and <textarea> elements when a change to the element's value is committed by the user. Unlike the input event, the change event is not necessarily fired for each change to an element's value.
 
-1.Do I use fat arrow function or normal function?
+1. Do I use fat arrow function or normal function?
 ```
 /*
 A normal anonymous function identifies the calling element as ’this’
