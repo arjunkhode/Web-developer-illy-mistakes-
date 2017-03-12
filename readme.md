@@ -43,12 +43,20 @@
 	But an arrow function inherits ‘this’ from its parent.
 	*/
 
-	//If you want to create a new scope for 'this' and dive right into the created element, use a normal function.
+	//If you want to create a new scope for 'this' and 
+	//dive right into the created element, use a normal function.
 
 		const elem1 = document.querySelector('.elem1');
 		elem1.addEventListener('click',function(){
 		console.log("I am a standard function and my this is:",this);
-		// this returns 'elem1' in this example. The standard function is bounded by the parent which is document.
+		//This returns 'elem1' in this example. 
+		//The standard function is bounded by the parent which is document.
+		
+		const elem1 = document.querySelector('.elem1');
+		elem1.addEventListener('click',()=>{
+		console.log("I am a standard function and my this is:",this);
+		//This returns 'Window' because the parent of the calling statement
+		//is Window.
 		});
 	```
 	Check out an [example](https://github.com/arjunkhode/Web-developer-silly-mistakes-/blob/master/fatarrow-vs-standard-functions.html)
