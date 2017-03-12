@@ -2,29 +2,15 @@
 <ol>
 <li>I forgot to add a closing `div` tag!</li>
 ```
-<!-- You must close your div tags-->
-<div class="container"> 
-	<div class="stuff">
-		...
-	</div>
-	<div class="stuff">
-		...
-	</div>
-	<div class="stuff">
-		...
-	</div>
-</div>
+You must close your div tags!
 ```
 
 <li>In JS, the data attribute can be accessed by dataset, but is it dataSet or dataset?</li>
 Again, is it just dataset or a function call dataset()?
 ```
-<!--It is dataset, and it is a property, not a function-->
-<button class="btn" data-state=1>State 1</button>
-<script>
+//It is dataset, and it is a property, not a function
  	const btn = document.queryselector('.btn');
 	console.log(btn.dataset.state);
-</script>
 ```
 
 <li>Are the eventListeners camel-case? Is it mousedown or mouseDown? </li>
