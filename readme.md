@@ -69,3 +69,19 @@
 	white-space:nowrap;
 	overflow:hidden;
 	```
+
+1. Let's resolve the issue of how to use a multiple type select input once and for all
+
+	```
+		<select name="cars[]" multiple="multiple">
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="opel">Opel</option>
+		<option value="audi">Audi</option>
+		<!-- Note how name="cars[]" has square brackets around it-->
+		</select>
+		<?php
+		$cars = $_POST['cars'];
+		print_r ($cars);
+		?>
+	```
