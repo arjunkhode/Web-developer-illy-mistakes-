@@ -61,3 +61,5 @@
 	```
 	Check out an [example](https://github.com/arjunkhode/Web-developer-silly-mistakes-/blob/master/fatarrow-vs-standard-functions.html)
 	Learn more about it [Here](http://thesagittariusme.blogspot.com/2017/02/es6-arrow-functions-this.html)
+
+1. You can't give background color to a radio button because no such property exists for it.
