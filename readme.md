@@ -85,3 +85,5 @@
 		print_r ($cars);
 		?>
 	```
+
+1. `.val()` is a jQuery thing and `.value` is a javaScript thing. It's primarily used to get the values of form elements such as input , select and textarea. 
