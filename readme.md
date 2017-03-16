@@ -19,9 +19,9 @@
 	}
 	```
 
-1. <link rel="stylesheet" href="./style.css">
-* Use ./ in the path even if it's in the same folder
-* It's href for stylesheet and not src
+1. `<link rel="stylesheet" href="./style.css">`
+	* Use ./ in the path even if it's in the same folder
+	* It's href for stylesheet and not src
 
 1. Meta tags have a name and content. The name of the meta tag is like a title for the meta property and content is the value assigned to that title.
 	```
