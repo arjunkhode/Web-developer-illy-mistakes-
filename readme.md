@@ -5,6 +5,21 @@
 	You must close your div tags!
 	```
 
+1. At one time, I tried to use colon in a strange wrong way in CSS
+	```
+	a:
+	width="100px";
+	```
+	That's a silly mistake indeed.
+	Use the element names followed by braces. Properties are written inside these braces
+	and use a colon for the attributes
+	```
+	a{
+	width: 100px;
+	}
+	```
+
+
 1. In JS, the data attribute can be accessed by dataset, but is it dataSet or dataset?
 
 	Again, is it just dataset or a function call dataset()?
