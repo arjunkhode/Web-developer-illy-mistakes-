@@ -30,7 +30,7 @@
 
 1. Let's settle the right way to write a meta for viewport once and for all
 	```
-	<meta name="viewport" content="width=device-width initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	```
 
 1. In JS, the data attribute can be accessed by dataset, but is it dataSet or dataset?
