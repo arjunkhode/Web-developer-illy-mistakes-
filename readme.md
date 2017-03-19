@@ -115,3 +115,7 @@
 	```
 
 1. `.val()` is a jQuery thing and `.value` is a javaScript thing. It's primarily used to get the values of form elements such as input , select and textarea. 
+
+1. When to not use semicolons? 
+
+It can be omitted if the statement is followed by a line break (or there’s only one statement in a `{block}`). The semicolon is only obligatory when you have two or more statements on the same line. You shouldn’t put a semicolon after a closing curly bracket }. The only exceptions are assignment statements, such as `var obj = {};`
