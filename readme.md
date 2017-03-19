@@ -90,7 +90,7 @@
 	Check out an [example](https://github.com/arjunkhode/Web-developer-silly-mistakes-/blob/master/fatarrow-vs-standard-functions.html)
 	Learn more about it [Here](http://thesagittariusme.blogspot.com/2017/02/es6-arrow-functions-this.html)
 
-1. You can't give background color to a radio button because no such property exists for it.
+1. You can't set background color of a radio button because no such exact property exists for it. You can change the appearance of a radio button but not by setting background color as we normally do for span, etc.
 
 1. For text-overflow:ellipsis to work, width must be in px not %
 	```
