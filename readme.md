@@ -125,11 +125,4 @@ $('html, body').animate({scrollTop: $('#element').offset().top}, 'slow');
 
 1. What is a callback function?
 
-A callback function, also known as a higher-order function, is a function that is passed to another function.
-
 1. When to not use a semicolon?
-
-It can be omitted if the statement is followed by a line break (or there’s only one statement in a `{block}`). 
-The semicolon is only obligatory when you have two or more statements on the same line. You shouldn’t put a semicolon after a closing curly bracket }. 
-The only exceptions are assignment statements, such as `var obj = {};`
-
