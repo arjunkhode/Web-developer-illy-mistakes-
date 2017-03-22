@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smooth scrolling</title>
+</head>
+<body>
+<style>
+.one{
+	background: linear-gradient(35deg, crimson, maroon);
+	height:200vh;
+	width:50vw;
+}
+.two{
+	background: linear-gradient(65deg, olive, green);
+	height:200vh;
+	width:50vw;
+}
+</style>
+<div class="one">
+<span class="scrollit">Scroll to 2</span>
+</div>
+<div class="two"></div>
+<script type="text/javascript">
+	const scrollit = document.querySelector('.scrollit');
+
+	const letsgo = function(){
+		var target = document.getElementById("two");
+    	animate(document.scrollit, "scrollTop", target.offsetTop, 2000, true);
+	}
+
+	scrollit.addEventListener('click',letsgo);
+</script>
+</body>
+</html>

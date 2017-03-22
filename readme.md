@@ -127,7 +127,6 @@ A callback function, also known as a higher-order function, is a function that i
 1. How to make smooth scrolling in JavaScript?
 
 ```
-document.querySelector('.hello').scrollIntoView({ 
-  behavior: 'smooth' 
-});
+//No easy vanilla JS solution found but JQuery version would be:
+$('html, body').animate({scrollTop: $('#element').offset().top}, 'slow');
 ```
