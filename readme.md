@@ -123,3 +123,11 @@ It can be omitted if the statement is followed by a line break (or there’s onl
 1. What is a callback function?
 
 A callback function, also known as a higher-order function, is a function that is passed to another function 
+
+1. How to make smooth scrolling in JavaScript?
+
+```
+document.querySelector('.hello').scrollIntoView({ 
+  behavior: 'smooth' 
+});
+```
