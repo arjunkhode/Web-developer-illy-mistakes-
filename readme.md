@@ -121,7 +121,7 @@
 
 A semicolon can be omitted if the statement is followed by a line break or that's the only statement in a block.
 The semicolon is required when there are two or more statements on the same line.
-You shouldn't put a semicolon after a curly bracket the only exception being assignment statements.
+You shouldn
 
 1. How to make smooth scrolling in JavaScript?
 
