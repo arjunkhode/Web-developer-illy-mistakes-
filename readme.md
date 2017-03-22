@@ -124,3 +124,7 @@
 //No easy vanilla JS solution found but JQuery version would be:
 $('html, body').animate({scrollTop: $('#element').offset().top}, 'slow');
 ```
+
+1. point
+
+point
