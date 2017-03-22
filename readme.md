@@ -114,7 +114,7 @@
 		?>
 	```
 
-1. `.val()` is a jQuery thing and `.value` is a javaScript thing. It's primarily used to get the values of form elements such as input , select and textarea. var obj = {};`
+1. `.val()` is a jQuery thing and `.value` is a javaScript thing. It's primarily used to get the values of form elements such as input , select and textarea. `var obj = {};`
 
 1. When to not use semicolons? 
 
