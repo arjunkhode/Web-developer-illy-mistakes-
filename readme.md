@@ -114,14 +114,7 @@
 		?>
 	```
 
-1. `.val()` is a jQuery thing and `.value` is a javaScript thing. It's primarily used to get the values of form elements such as input , select and textarea. `var obj = {};`
-
-1. How to make smooth scrolling in JavaScript?
-
-```
-//No easy vanilla JS solution found but JQuery version would be:
-$('html, body').animate({scrollTop: $('#element').offset().top}, 'slow');
-```
+1. `.val()` is a jQuery thing and `.value` is a javaScript thing. It's primarily used to get the values of form elements such as input, select and textarea.
 
 1. What is a callback function?
 
