@@ -118,6 +118,7 @@
 
 1. What is a callback function?
 
-A callback function, also known as a higher-order function, is a function that is passed to another function.
+A callback function, also known as a 'higher order function' is a function that is passed to another function
 
+1. test point
 1. When to not use a semicolon?
