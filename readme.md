@@ -117,9 +117,7 @@
 1. `.val()` is a jQuery thing and `.value` is a javaScript thing. It's primarily used to get the values of form elements such as input, select and textarea.
 
 1. A callback function, also known as a 'higher order function' is a function that is passed to another function
-1. When to not use a semicolon?
 
-A semicolon can be omitted if the statement is followed by a line break or 
 1. How to make smooth scrolling in JavaScript?
 
 ```
