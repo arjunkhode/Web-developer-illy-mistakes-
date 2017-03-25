@@ -130,3 +130,5 @@ It can be omitted if the statement is followed by a line break (or there’s onl
 The semicolon is only obligatory when you have two or more statements on the same line. You shouldn’t put a semicolon after a closing curly bracket. 
 The only exceptions are assignment statements, such as `var obj = {};`
 
+1.
+
