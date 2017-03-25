@@ -1,8 +1,6 @@
 #Foolish mistakes I make as a web developer
 
 1. I forgot to add a closing `div` tag!
-	```	You must close your div tags!
-	```
 
 1. At one time, I tried to use colon in a strange wrong way in CSS
 	```
