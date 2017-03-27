@@ -1,4 +1,4 @@
-#Foolish mistakes I make as a web developer
+# Foolish mistakes I make as a web developer
 
 1. I forgot to add a closing `div` tag!
 
