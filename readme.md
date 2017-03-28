@@ -79,7 +79,7 @@
 		
 		const elem1 = document.querySelector('.elem1');
 		elem1.addEventListener('click',()=>{
-		console.log("I am a standard function and my this is:",this);
+		console.log("I am an arrow function and my this is:",this);
 		//This returns 'Window' because the parent of the calling statement
 		//is Window.
 		});
