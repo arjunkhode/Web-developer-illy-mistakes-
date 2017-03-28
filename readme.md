@@ -91,6 +91,8 @@
 
 1. For text-overflow:ellipsis to work, width must be in px not %
 	```
+	text-overflow:ellipsis;
+	width: 200px;
 	white-space:nowrap;
 	overflow:hidden;
 	```
