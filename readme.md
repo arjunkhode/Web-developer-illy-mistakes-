@@ -133,3 +133,7 @@
 1. When you use var prefix on a variable, it gets defined in the scope. When no prefix is mentioned, it gets defined as a global variable.
 
 1. You always need to use `this.` prefix to access the original copy of member variables inside ES6 classes.
+
+1. What are first class functions?
+
+	Values can be passed to a function, and the function will return a value. In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called. In brief, they are Function objects
