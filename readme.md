@@ -137,3 +137,7 @@
 1. What are first class functions?
 
 	Values can be passed to a function, and the function will return a value. In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called. In brief, they are Function objects
+	
+1. Is it e.preventDefault or e.preventDefault()?
+	
+	It is a function, e.preventDefault()
