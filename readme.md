@@ -159,3 +159,9 @@
 1. Does the screen keyword apply to the device's physical screen or the browser's viewport?
 
 	It applies to the browser's viewport and not the physical screen.
+	
+1. Overflow:hidden creates a new block formatting context.
+
+1. keygen is a valid HTML tag. It is used for keygeneration in signed certificates
+
+
