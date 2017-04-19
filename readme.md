@@ -156,4 +156,6 @@
 	
 1. In the media query @media only screen... the 'only' keyword stops the older browsers from parsing the CSS.
 
+1. Does the screen keyword apply to the device's physical screen or the browser's viewport?
 
+	It applies to the browser's viewport and not the physical screen.
