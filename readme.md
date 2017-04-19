@@ -144,4 +144,7 @@
 
 1. Can you set margin-top and margin-bottom on an inline element?
 
-	No. You can't.
+	No. You can't. Same for padding-top and padding-bottom
+
+1. :checked selector applies to not only checkboxes but also options
+
