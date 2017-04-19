@@ -149,3 +149,11 @@
 1. :checked selector applies to not only checkboxes but also options
 
 1. The translate function cannot translate the element along the z-axis.
+
+1. Are unused style resources still downloaded by the browser?
+
+	No, they are not.
+	
+1. In the media query @media only screen... the 'only' keyword stops the older browsers from parsing the CSS.
+
+
