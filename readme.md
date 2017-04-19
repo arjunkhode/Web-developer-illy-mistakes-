@@ -141,3 +141,7 @@
 1. Is it e.preventDefault or e.preventDefault()?
 	
 	It is a function, e.preventDefault()
+
+1. Can you set margin-top and margin-bottom on an inline element?
+
+	No. You can't.
