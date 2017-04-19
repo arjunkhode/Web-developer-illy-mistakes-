@@ -149,5 +149,3 @@
 1. :checked selector applies to not only checkboxes but also options
 
 1. The translate function cannot translate the element along the z-axis.
-
-1. The more specific the CSS is, the more is its precedence. So :hover,:nth-of-type(odd) etc. have more precendence
