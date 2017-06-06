@@ -165,3 +165,5 @@
 1. keygen is a valid HTML tag. It is used for keygeneration in signed certificates
 
 1. Images from img tag in HTML are by default inline. They can be set to block by display:block
+
+1. Array.sort() uses quicksort for numbers and mergesort for ascii
