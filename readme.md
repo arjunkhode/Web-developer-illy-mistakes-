@@ -166,4 +166,8 @@
 
 1. Images from img tag in HTML are by default inline. They can be set to block by display:block
 
+# Algorithms related
+
 1. Array.sort() uses quicksort for numbers and mergesort for ascii
+
+1. Whenever you want to pop an array inside a loop, always start from arr.length and decrement to i>0, instead of starting from zero and advancing till arr.length-1, because the length of array gets re-indexed on every pop()
