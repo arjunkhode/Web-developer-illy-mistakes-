@@ -171,3 +171,10 @@
 1. Array.sort() uses quicksort for numbers and mergesort for ascii
 
 1. Whenever you want to pop an array inside a loop, always start from arr.length and decrement to i>0, instead of starting from zero and advancing till arr.length-1, because the length of array gets re-indexed on every pop()
+
+1. ECMAScript 2016 includes an include method for arrays that specifically solves the answer of removing duplicates.
+```
+if(arr.includes(2)) {
+  console.log("2 is already present");
+}
+```
