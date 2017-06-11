@@ -173,18 +173,18 @@
 1. Whenever you want to pop an array inside a loop, always start from arr.length and decrement to i>0, instead of starting from zero and advancing till arr.length-1, because the length of array gets re-indexed on every pop()
 
 1. ECMAScript 2016 includes an include method for arrays that specifically solves the answer of removing duplicates.
-```
-if(arr.includes(2)) {
-  console.log("2 is already present");
-}
-```
+	```
+	if(arr.includes(2)) {
+	  console.log("2 is already present");
+	}
+	```
 
 1. Use arr.splice() to delete elements from the original array. Example:
-```
-//delete 3 from arr
-arr=[1,2,3,4,5];
-arr.splice(2,1); //from index 2, delete 1 element
-arr; // [1,2,4,5]
-```
+	```
+	//delete 3 from arr
+	arr=[1,2,3,4,5];
+	arr.splice(2,1); //from index 2, delete 1 element
+	arr; // [1,2,4,5]
+	```
 
 1. The second argument to Array.splice() is not an index. It is the number of elements to remove starting from the index specified by the first parameter.
