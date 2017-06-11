@@ -194,3 +194,7 @@
 	```
 
 1. The second argument to Array.splice() is not an index. It is the number of elements to remove starting from the index specified by the first parameter.
+
+1. To find index of sub-string in a string, use str.indexOf("sub-string")
+
+1. Strings don't have a forEach function, you have to spread the string [...str].forEach()
