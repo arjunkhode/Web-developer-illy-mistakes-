@@ -1,5 +1,11 @@
 # Foolish mistakes I make as a web developer
 
+1. Disadvantages of var
+	- var can be reassigned
+	- var are either function scoped or globally scoped
+	- var leaks outside if statements
+
+
 1. I forgot to add a closing `div` tag!
 
 1. At one time, I tried to use colon in a strange wrong way in CSS
