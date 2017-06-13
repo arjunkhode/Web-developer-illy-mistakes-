@@ -172,6 +172,16 @@
 
 1. Images from img tag in HTML are by default inline. They can be set to block by display:block
 
+### Regarding basic website with Nav
+
+1. To make <a> take full space of li in nav, use:
+a{display: block;}
+
+1. adjust line height same as height of li to center text in nav
+
+1. section background was showing 1px at the bottom of the image.
+	- Was fixed by assigning display:block to the image
+
 # Algorithms related
 
 1. Array.sort() uses quicksort for numbers and mergesort for ascii
