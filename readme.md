@@ -181,6 +181,11 @@ a{display: block;}
 
 1. section background was showing 1px at the bottom of the image.
 	- Was fixed by assigning display:block to the image
+	
+1. The angle value and "deg" should have no space in linear gradient.
+	```
+	linear-gradient(25deg,mistyrose,honeydew);
+	```
 
 # Algorithms related
 
