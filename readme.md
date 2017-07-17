@@ -172,6 +172,10 @@
 
 1. Images from img tag in HTML are by default inline. They can be set to block by display:block
 
+1. element.offsetTop gives the distance between top of document and top of element
+
+1. window.scrollY gives the distance of top of viewport from the top of document
+
 ### Regarding basic website with Nav
 
 1. To make <a> take full space of li in nav, use:
