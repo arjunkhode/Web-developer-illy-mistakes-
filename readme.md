@@ -190,6 +190,11 @@ a{display: block;}
 	```
 	linear-gradient(25deg,mistyrose,honeydew);
 	```
+1. If you are trying to have a fancy linear-gradient on the background for the whole page. Setting a nav with some height would probably cause the page to repeat the gradient after that much height. To avoid this, assuming the gradient is on the body, use the following code on the body:
+	```
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	```
 
 # Algorithms related
 
