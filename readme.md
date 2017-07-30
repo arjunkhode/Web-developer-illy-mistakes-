@@ -176,6 +176,13 @@
 
 1. window.scrollY gives the distance of top of viewport from the top of document
 
+1. Template strings:
+	```
+	   const x = 3;
+	   const y = 7;
+	   console.log(`${x} + ${y} = ${x + y}`); //produces "3+7=10"
+	```
+	
 ### Regarding basic website with Nav
 
 1. To make <a> take full space of li in nav, use:
